@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Premier Crypto Broker Platform</title>
+    <link rel="stylesheet" href="home-style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="header-container">
+            <div class="logo">**CryptoBroker**</div>
+            <nav>
+                <a href="#features">Features</a>
+                <a href="#security">Security</a>
+                <a href="#pricing">Pricing</a>
+            </nav>
+            <div class="auth-links">
+                <a href="auth-forms.html" class="login-btn">Log In</a>
+                <a href="auth-forms.html" class="cta-button primary-cta">Sign Up</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>Trade Crypto with **Low Fees** and **High Speed**</h1>
+            <p class="subtitle">Join the millions growing their portfolio on the world's most trusted digital asset broker.</p>
+            <a href="auth-forms.html" class="cta-button hero-cta">Start Trading Now &rarr;</a>
+            <div class="trust-metrics">
+                <span>**2M+** Traders</span>
+                <span>**$1B+** Daily Volume</span>
+                <span>**24/7** Support</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features-section">
+        <h2>Why Choose Our Brokerage?</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <h3>📉 Lowest Fees</h3>
+                <p>Enjoy industry-leading low commissions and transparent pricing on all trades, making your money work harder.</p>
+            </div>
+            <div class="feature-card">
+                <h3>📈 Advanced Tools</h3>
+                <p>Access professional-grade charts, indicators, and real-time market data to execute winning strategies.</p>
+            </div>
+            <div class="feature-card">
+                <h3>🔒 Institutional Security</h3>
+                <p>We use cold storage, multi-sig wallets, and 2FA to keep your funds safe, backed by a comprehensive insurance fund.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="security" class="security-section">
+        <div class="security-content">
+            <h2>The Security You Deserve</h2>
+            <p>Your trust is our greatest asset. We are fully compliant with global financial standards and use bank-grade encryption.</p>
+            <ul>
+                <li>✅ **Full KYC/AML** Compliance</li>
+                <li>✅ **2FA** enforced on all accounts</li>
+                <li>✅ Funds held in **Cold Storage**</li>
+            </ul>
+        </div>
+        <div class="security-image">
+            [attachment_0](attachment)
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 CryptoBroker. All rights reserved. <a href="#">Risk Disclaimer</a> | <a href="#">Privacy Policy</a></p>
+    </footer>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Broker Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">**CryptoBroker**</div>
+        <nav>
+            <a href="#">Dashboard</a>
+            <a href="#">Trade</a>
+            <a href="#">Wallet</a>
+            <a href="#">Settings</a>
+        </nav>
+        <div class="user-info">
+            Welcome, Trader!
+        </div>
+    </header>
+
+    <main class="dashboard-container">
+        <div class="balance-card">
+            <h3>Available Balance (USD)</h3>
+            <div class="balance-amount">**$140,000.00**</div>
+            <div class="balance-details">
+                <span class="detail-label">24h P/L:</span>
+                <span class="profit-loss positive">+$2,100.00 (1.5%)</span>
+            </div>
+            <button class="cta-button">Deposit Funds</button>
+        </div>
+
+        <section class="main-content-area">
+            <div class="trading-module">
+                <h2>Trade Center: BTC/USD</h2>
+                
+                <div class="trade-grid">
+                    <div class="chart-area">
+                        <div class="chart-header">
+                            <h3>Bitcoin (BTC) Live Chart</h3>
+                            <div class="price-ticker">
+                                $62,540.50
+                                <span class="change positive">+1.8%</span>
+                            </div>
+                        </div>
+                        <div class="chart-placeholder">
+                            [Placeholder for TradingView or Interactive Chart Component]
+                        </div>
+                    </div>
+
+                    <div class="order-form-card">
+                        <div class="tab-controls">
+                            <button class="tab-active">BUY</button>
+                            <button>SELL</button>
+                        </div>
+                        
+                        <form class="buy-form">
+                            <div class="form-group">
+                                <label for="amount">Amount (USD)</label>
+                                <input type="number" id="amount" placeholder="e.g., 500" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="btc-qty">BTC Quantity (Approx.)</label>
+                                <input type="text" id="btc-qty" value="0.007994" readonly>
+                            </div>
+                            
+                            <div class="form-group info-row">
+                                <span>Available Balance:</span>
+                                <span class="balance-display">**$140,000.00**</span>
+                            </div>
+                            
+                            <div class="form-group info-row">
+                                <span>Trading Fee (0.1%):</span>
+                                <span class="fee">$0.50</span>
+                            </div>
+
+                            <button type="submit" class="submit-button buy-action">Execute Buy Order</button>
+                        </form>
+                        
+                        <p class="disclaimer">By submitting, you agree to the instant market execution.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up / Login</title>
+    <link rel="stylesheet" href="auth-style.css"> 
+</head>
+<body>
+
+    <div class="auth-wrapper">
+        <div class="auth-header">
+            <h1 class="logo-text">CryptoBroker</h1>
+            <p>Trade with confidence.</p>
+        </div>
+
+        <div class="form-toggle">
+            <span class="active-tab">Sign Up</span> | <span class="inactive-tab">Log In</span>
+        </div>
+
+        <form class="auth-form" id="signup-form">
+            <h2>Create Your Account</h2>
+
+            <div class="input-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" required placeholder="yourname@example.com">
+            </div>
+
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" required placeholder="Min. 8 characters">
+            </div>
+
+            <div class="input-group optional">
+                <label for="referral">Referral ID (Optional)</label>
+                <input type="text" id="referral" placeholder="Enter code">
+            </div>
+
+            <div class="terms">
+                <input type="checkbox" id="agree" required>
+                <label for="agree">I agree to the <a href="#">Terms and Conditions</a></label>
+            </div>
+
+            <button type="submit" class="auth-button signup-btn">Sign Up Now</button>
+            
+            <p class="switch-link">
+                Already have an account? <a href="#">Log In</a>
+            </p>
+        </form>
+    </div>
+
+</body>
+</html>
+
+/* General Setup */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0a0a0a; /* Ultra dark background */
+    color: #f0f0f0; 
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+/* Header & Nav */
+.main-header {
+    background-color: #1a1a1a;
+    border-bottom: 1px solid #333;
+}
+
+.logo {
+    font-size: 1.6em;
+    color: #00e676; /* Bright green accent */
+    font-weight: 700;
+}
+
+nav a {
+    margin: 0 15px;
+    font-size: 1em;
+    color: #ccc;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #00e676;
+}
+
+.login-btn {
+    margin-right: 20px;
+}
+
+/* Buttons */
+.cta-button {
+    padding: 10px 25px;
+    border-radius: 6px;
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.primary-cta, .hero-cta {
+    background-color: #00e676;
+    color: #1a1a1a;
+    border: 2px solid #00e676;
+}
+
+.primary-cta:hover, .hero-cta:hover {
+    background-color: #00c853;
+}
+
+/* 1. Hero Section */
+.hero-section {
+    background: #1a1a1a;
+    padding: 100px 20px;
+    text-align: center;
+    border-bottom: 5px solid #00e676;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-content h1 {
+    font-size: 3.5em;
+    margin-bottom: 15px;
+}
+
+.hero-content .subtitle {
+    font-size: 1.3em;
+    color: #ccc;
+    margin-bottom: 40px;
+}
+
+.hero-cta {
+    font-size: 1.2em;
+    padding: 15px 40px;
+}
+
+.trust-metrics {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    color: #999;
+}
+
+/* 2. Features Section */
+.features-section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.features-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 50px;
+}
+
+.feature-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.feature-card {
+    background-color: #1a1a1a;
+    padding: 30px;
+    border-radius: 10px;
+    flex: 1;
+    text-align: left;
+    border: 1px solid #333;
+    transition: transform 0.3s;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    border-color: #00e676;
+}
+
+.feature-card h3 {
+    color: #00e676;
+    font-size: 1.5em;
+}
+
+/* 3. Security Section */
+.security-section {
+    background-color: #111;
+    padding: 80px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 50px;
+}
+
+.security-content h2 {
+    font-size: 2.2em;
+    color: white;
+}
+
+.security-content ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.security-content li {
+    background: rgba(0, 230, 118, 0.1);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.security-image {
+    width: 300px;
+    height: 300px;
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00e676;
+    font-size: 1.5em;
+}
+
+/* Footer */
+.main-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+    border-top: 1px solid #333;
+    font-size: 0.9em;
+    color: #999;
+}
+
+.main-footer a {
+    color: #00e676;
+}
+
+/* Body and Wrapper Setup */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0d0d0d; /* Very dark background */
+    color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.auth-wrapper {
+    width: 400px;
+    background-color: #1a1a1a;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    border-top: 5px solid #4CAF50; /* Green accent bar */
+}
+
+/* Header & Logo */
+.auth-header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.logo-text {
+    font-size: 1.8em;
+    color: #4CAF50;
+    margin: 0 0 5px 0;
+}
+
+.auth-header p {
+    color: #a0a0a0;
+    font-size: 0.9em;
+}
+
+/* Form Toggle (for visual separation) */
+.form-toggle {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.form-toggle .active-tab {
+    color: #4CAF50;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+    margin-right: 15px;
+}
+.form-toggle .inactive-tab {
+    color: #666;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+.form-toggle .inactive-tab:hover {
+    color: #e0e0e0;
+}
+
+/* Form Styling */
+.auth-form h2 {
+    text-align: center;
+    color: #e0e0e0;
+    margin-top: 0;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    background-color: #2a2a2a;
+    border: 1px solid #3d3d3d;
+    color: white;
+    border-radius: 6px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+.input-group input:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+/* Terms and Conditions Checkbox */
+.terms {
+    display: flex;
+    align-items: center;
+    font-size: 0.9em;
+    margin-bottom: 25px;
+}
+
+.terms input[type="checkbox"] {
+    margin-right: 10px;
+    width: auto;
+}
+
+.terms a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+/* Button */
+.auth-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.auth-button:hover {
+    background-color: #45a049;
+}
+
+/* Switch Link */
+.switch-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+.switch-link a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* General Setup */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background for a 'pro' feel */
+    color: #e0e0e0; /* Light text for contrast */
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #1f1f1f;
+    border-bottom: 1px solid #333;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #4CAF50; /* A pop of crypto green */
+}
+
+.navbar a {
+    color: #e0e0e0;
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #4CAF50;
+}
+
+.user-info {
+    font-size: 0.9em;
+}
+
+/* Dashboard Layout */
+.dashboard-container {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 350px 1fr; /* Sidebar for balance, larger area for content */
+    gap: 30px;
+}
+
+/* Balance Card Styling */
+.balance-card {
+    background-color: #1f1f1f;
+    border: 1px solid #333;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.balance-card h3 {
+    margin-top: 0;
+    color: #a0a0a0;
+    font-weight: normal;
+    font-size: 1em;
+}
+
+.balance-amount {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 10px 0 20px 0;
+}
+
+.balance-details {
+    margin-bottom: 25px;
+    font-size: 0.9em;
+}
+
+.profit-loss.positive {
+    color: #4CAF50; /* Green for profit */
+    font-weight: bold;
+}
+
+.cta-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #45a049;
+}
+
+/* Main Content Area */
+.main-content-area {
+    background-color: #1f1f1f;
+    border: 1px solid #333;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+/* Trading Module Layout */
+.trading-module {
+    /* Uses the existing main-content-area styles */
+}
+
+.trade-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* Chart on the left, Form on the right */
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Chart Area */
+.chart-area {
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #333;
+}
+
+.chart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.price-ticker {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.change.positive {
+    color: #4CAF50; /* Green for profit */
+    margin-left: 10px;
+}
+
+.chart-placeholder {
+    height: 450px;
+    background-color: #2a2a2a;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #777;
+}
+
+/* Order Form Card */
+.order-form-card {
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #333;
+}
+
+.tab-controls button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #333;
+    color: #e0e0e0;
+    font-weight: bold;
+    border-radius: 4px 4px 0 0;
+    transition: background-color 0.3s;
+}
+
+.tab-controls .tab-active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.buy-form {
+    padding: 20px 0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.9em;
+    color: #a0a0a0;
+}
+
+.form-group input[type="number"],
+.form-group input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #1f1f1f;
+    border: 1px solid #444;
+    color: white;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+    margin-top: 10px;
+    padding: 5px 0;
+    border-top: 1px dashed #333;
+}
+
+.balance-display {
+    color: #ffffff;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.buy-action {
+    background-color: #4CAF50; /* Green for Buy */
+    color: white;
+}
+
+.disclaimer {
+    font-size: 0.8em;
+    color: #777;
+    text-align: center;
+    margin-top: 15px;
+}
+
+
